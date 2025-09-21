@@ -8,6 +8,11 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+/**
+ * DTO for representing the public view of an order book.
+ * This is what clients will see when they query the order book state.
+ * Implements Serializable for Redis caching.
+ */
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
