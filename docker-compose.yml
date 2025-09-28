@@ -1,0 +1,17 @@
+services:
+  redis:
+    image: redis:7
+    ports:
+      - "6379:6379"
+
+  postgres:
+    image: postgres:15
+    container_name: exchange-postgres
+    restart: always
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: mysecretpassword
+      POSTGRES_DB: exchange
+      TZ: Asia/Kolkata
+    ports:
+      - "5433:5432"
