@@ -12,7 +12,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
-import com.example.exchange.core.OrderBook;
+import com.example.exchange.core.orderbook.OrderBook;
 import com.example.exchange.domain.Order;
 import com.example.exchange.domain.Side;
 import com.example.exchange.domain.Trade;

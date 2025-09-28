@@ -1,4 +1,4 @@
-package com.example.exchange.core;
+package com.example.exchange.core.orderbook;
 
 import java.math.BigDecimal;
 import java.util.Collections;
