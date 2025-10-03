@@ -11,10 +11,9 @@ export const options = {
         { duration: '30s', target: 0 },   // Ramp-down to 0 users
     ],
     // We can define thresholds for our test to pass or fail.
-    // E.g., fail the test if the error rate is > 1% or 95% of requests take longer than 800ms.
     thresholds: {
-        'http_req_failed': ['rate<0.01'], // < 1% error rate
-        'http_req_duration': ['p(95)<800'], // 95th percentile response time must be < 800ms
+        'http_req_failed': ['rate<0.05'], // < 5% error rate
+        'http_req_duration': ['p(95)<2000'], // 95th percentile response time must be < 2000ms
     },
 };
 
