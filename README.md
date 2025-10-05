@@ -1,4 +1,4 @@
-# Order Matching Engine Overview
+# Order Matching Engine
 
 This project is a high-performance, real-time order matching engine for financial exchanges, built with Java, Spring Boot, Redis, and PostgreSQL. It supports RESTful APIs and WebSocket communication for live trading, order book management, and trade notifications. The architecture emphasizes separation of concerns, thread safety, and scalability, making it suitable for production-grade trading platforms.
 
